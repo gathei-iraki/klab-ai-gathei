@@ -27,6 +27,8 @@ dist/
 .coverage.*
 htmlcov/
 coverage.xml
+.ipynb_checkpoints/
+*.pyc
 
 # Environment variables and local configuration
 .env
