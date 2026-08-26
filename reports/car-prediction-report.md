@@ -1,0 +1,4 @@
+In the assignment The Random Forest model performed slightly better than Linear Regression. Its MAE and RMSE were lower, while its R² score was higher. Linear Regression assumes that price changes in a straight-line relationship with year and kilometres driven. In reality, car depreciation is usually nonlinear. For example, the effect of an additional year or kilometre may differ between newer and older cars. Random Forest can model these nonlinear patterns and interactions, which explains its better performance.
+
+However, both R² scores are low. 
+Neither model predicts prices very accurately using only year and kilometres driven. Car price also depends on factors such as company, model, fuel type, condition, transmission, engine size, and location. Since these variables were omitted, most price variation remains unexplained.
